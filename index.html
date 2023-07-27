@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/script.js" defer></script>
+  <title>Weather Dashboard App</title>
+</head>
+<body>
+
+  <div class="container">
+    <section class="sectionHeader">
+      <header class="header">Weather Dashboard</header>
+    </section>
+    <div class="main">
+      <div class="search">
+        <form action="">
+          <label for="">Search For A City.</label>
+          <input type="text">
+
+          <button type="submit">Search</button>
+        </form>
+        <ul class="cities">
+          <li class="city">Minneapolis</li>
+          <li class="city">Chicago</li>
+          <li class="city">St.Louis</li>
+          <li class="city">Columbus</li>
+          <li class="city">San Diego</li>
+          <li class="city">New York</li>
+        </ul>
+      </div>
+      <div class="forecast-container">
+          <span class="forecast-header">Forecast</span>
+        <ul class="fiveDays" id="forecast">
+
+          <li class="forecast-message">Use the search button to get the forecast</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./script.js" defer></script>
+</body>
+</html>
